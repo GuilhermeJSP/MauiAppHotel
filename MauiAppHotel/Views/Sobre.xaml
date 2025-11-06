@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="{StaticResource MidnightBlue}"
+             NavigationPage.HasNavigationBar="False">
+
+    <VerticalStackLayout Padding="10" Spacing="10"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="Center">
+
+        <Label Text="Aplicativo: Hotel"
+               FontFamily="Quintessential"
+               FontSize="35"
+               TextColor="{StaticResource PrimaryDark}"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Desenvolvido por: Guilherme J. S. Penha"
+               FontFamily="StoryScript"
+               FontSize="20"
+               TextColor="White"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Ano de desenvolvimento: 2025"
+               FontFamily="StoryScript"
+               FontSize="20"
+               TextColor="White"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Versão 1.0.0"
+               FontFamily="StoryScript"
+               FontSize="20"
+               TextColor="White"
+               HorizontalOptions="Center"/>
+
+
+        <Button Text="Voltar"
+                HorizontalOptions="Center"
+                Clicked="Voltar_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
